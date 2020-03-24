@@ -1,0 +1,22 @@
+{
+  "name": "botws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/a"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "p-queue": "^6.3.0",
+    "sulla-hotfix": "1.8.19"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.9.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
